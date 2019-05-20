@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Master Page</title>
+</head>
+    <style>
+        body{background-color:#D1E3F6;}
+        h1
+        {
+            font-variant:small-caps; 
+            text-align:center; 
+            text-decoration:underline;
+        }
+    </style>
+<body>
+    <h1> This is the Master Page</h1>
+    <form id="form1" runat="server">
+    <div id="nav">
+        <ul>
+            <li> <a href="Default.aspx"> HOME</a></li>
+            <li> <a href ="Lab1.aspx">Lab 1 Enrollment Form </a></li>
+            <li><a href="#"> Next Link</a></li>
+        </ul>
+    </div>
+    </form>
+</body>
+</html>
